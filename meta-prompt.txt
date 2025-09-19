@@ -1,0 +1,99 @@
+# No_Gas_Slaps™ Master Asset Generation Prompt
+
+## Core Visual Style
+Create cartoon-style animated GIFs featuring exaggerated physics and comic book aesthetics. Each animation should be 10-15 frames at 512x512 resolution, optimized for Telegram.
+
+## Character Design Rules
+- **Exaggerated Proportions**: Oversized heads, tiny bodies, extreme poses
+- **Facial Expressions**: Maximum emotion, visible pain/surprise during slap
+- **Outfit Details**: Parody versions of real outfits (SpaceX suits, Oculus headsets, etc.)
+- **Motion Elements**: Speed lines, motion blur, impact effects
+
+## Animation Sequence Structure
+1. **Wind-up Frame**: Character preparing for launch
+2. **Impact Frame**: Giant slap object making contact
+3. **Launch Frames**: Character flying with physics effects
+4. **Reaction Frames**: Character's shocked/excited expression
+5. **Background Elements**: Moving scenery, floating objects, effects
+
+## Color Palette
+- **Primary**: Bright, saturated colors (candy-like)
+- **Accents**: Neon greens, electric blues, hot pinks
+- **Effects**: Yellow speed lines, orange explosions, white impact flashes
+- **Background**: Gradient space scenes, digital landscapes, meme backgrounds
+
+## Text Elements
+- **Impact Text**: "SLAP!", "POW!", "BAM!" in comic book style
+- **Speech Bubbles**: Character reactions ("To the moon!", "This isn't Mars!")
+- **Score Displays**: Floating point numbers, $SLAP tokens
+
+## Background Scenarios
+### Space Themes
+- Mars landscapes with Dogecoin rockets
+- Lunar surfaces with Tesla Cybertrucks
+- Orbital space stations with Amazon logos
+- Deep space with Windows error messages
+
+### Digital Landscapes
+- Glitchy metaverse environments
+- Circuit board patterns
+- Social media timelines as physical spaces
+- Cryptocurrency trading floors
+
+### Meme Environments
+- WallStreetBets rocket ships
+- NFT art galleries as launch pads
+- Twitter feeds as physical obstacles
+- Reddit karma as floating points
+
+## Animation Effects
+- **Speed Lines**: Radiating from character during launch
+- **Impact Rings**: Circular shockwaves at slap moment
+- **Particle Effects**: Money, coins, memes flying
+- **Trail Effects**: Character leaving behind visual trails
+- **Camera Shake**: Screen shake during impact
+
+## File Naming Convention
+{target}_{scenario}_slap.gif
+Examples:
+- elon_mars_slap.gif
+- zuck_meta_slap.gif
+- bezos_space_slap.gif
+
+## Technical Specifications
+- **Format**: Animated GIF
+- **Resolution**: 512x512 pixels
+- **Frame Count**: 10-15 frames
+- **File Size**: Under 2MB
+- **Frame Rate**: 12-15 FPS
+- **Loop**: Infinite loop
+
+## Style References
+- Classic Looney Tunes physics
+- Modern meme culture aesthetics
+- Retro video game pixel art elements
+- Social media UI overlays
+
+## Humor Elements
+- **Satirical Details**: Company logos, tech references
+- **Absurd Physics**: Impossible trajectories
+- **Meta References**: Breaking the fourth wall
+- **Current Events**: Recent news, trending topics
+
+## AI Generation Prompt Template
+"Cartoon [BILLIONAIRE_NAME] in [PARODY_OUTFIT] getting slapped by giant [SLAP_OBJECT], flying through [BACKGROUND_SCENARIO], exaggerated comic style with speed lines, impact effects, 'SLAP!' text, bright colors, meme culture aesthetic, 512x512, animated GIF style"
+
+## Examples
+1. "Cartoon Elon Musk in SpaceX suit getting slapped by giant Twitter bird, flying through Mars landscape with Dogecoin rockets, exaggerated comic style..."
+2. "Cartoon Mark Zuckerberg in VR headset getting slapped by giant Facebook thumbs-up, flying through glitchy metaverse..."
+3. "Cartoon Jeff Bezos in cowboy hat getting slapped by giant Amazon box, flying past AWS servers..."
+
+## Quality Checklist
+- [ ] Clear slap impact visible
+- [ ] Character expression shows reaction
+- [ ] Background elements support narrative
+- [ ] Animation loops smoothly
+- [ ] File size under 2MB
+- [ ] Telegram optimization achieved
+- [ ] Humor/satire clearly conveyed
+- [ ] Billionaire recognizable in parody form
