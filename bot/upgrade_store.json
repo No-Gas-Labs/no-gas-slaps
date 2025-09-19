@@ -1,0 +1,71 @@
+{
+  "store_items": [
+    {
+      "id": "power_gloves",
+      "name": "💪 Power Gloves",
+      "cost_base": 1000,
+      "cost_multiplier": 1.5,
+      "effect_per_level": 0.25,
+      "max_level": 10,
+      "description": "Hulk-level slapping power! Each level increases slap power by 25%. Perfect for sending billionaires to neighboring galaxies.",
+      "humor_text": "Warning: May cause spontaneous rocket launches and billionaire tears.",
+      "icon": "💪",
+      "category": "power"
+    },
+    {
+      "id": "rocket_boots",
+      "name": "🚀 Rocket Boots",
+      "cost_base": 2500,
+      "cost_multiplier": 1.8,
+      "effect_per_level": 0.5,
+      "max_level": 8,
+      "description": "Because walking is for peasants. Strap on these bad boys for extra orbital boost that would make SpaceX jealous!",
+      "humor_text": "Side effects include: sudden urge to colonize Mars and refer to everything as 'rocket science'.",
+      "icon": "🚀",
+      "category": "velocity"
+    },
+    {
+      "id": "meme_magnet",
+      "name": "🧲 Meme Magnet",
+      "cost_base": 1500,
+      "cost_multiplier": 2.0,
+      "effect_per_level": 0.3,
+      "max_level": 5,
+      "description": "Attracts viral memes like Elon attracts SEC investigations! Increases chance of rare slap events.",
+      "humor_text": "May cause uncontrollable urge to tweet 'To the moon!' at inappropriate times.",
+      "icon": "🧲",
+      "category": "luck"
+    },
+    {
+      "id": "gravity_defier",
+      "name": "🌀 Gravity Defier",
+      "cost_base": 5000,
+      "cost_multiplier": 3.0,
+      "effect_per_level": 2.0,
+      "max_level": 3,
+      "description": "Newton's laws? Never heard of them. Float like a SpaceX rocket and defy gravity for precious seconds!",
+      "humor_text": "Physics teachers hate this one simple trick!",
+      "icon": "🌀",
+      "category": "utility"
+    },
+    {
+      "id": "billionaire_bane",
+      "name": "💥 Billionaire Bane",
+      "cost_base": 10000,
+      "cost_multiplier": 1.0,
+      "effect_per_level": 100,
+      "max_level": 1,
+      "description": "The ultimate anti-billionaire weapon. Guarantees epic or legendary slaps. Makes them see stars - literally!",
+      "humor_text": "Warning: May cause severe ego damage and spontaneous space colonization attempts.",
+      "icon": "💥",
+      "category": "legendary"
+    }
+  ],
+  "purchase_messages": {
+    "power_gloves": "💪 Your hands now have the power of 1000 Elon tweets! SLAP HARDER!",
+    "rocket_boots": "🚀 Houston, we have liftoff! Your boots are now registered as spacecraft.",
+    "meme_magnet": "🧲 Your meme game is now stronger than WallStreetBets on cocaine!",
+    "gravity_defier": "🌀 Gravity just filed a restraining order against you!",
+    "billionaire_bane": "💥 You are now the final boss of capitalism!"
+  }
+}
