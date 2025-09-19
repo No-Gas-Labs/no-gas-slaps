@@ -1,0 +1,118 @@
+{
+  "bot_name": "No_Gas_Slaps™ Bot",
+  "version": "1.0.0",
+  "commands": {
+    "/start": {
+      "description": "Initialize user and show welcome message",
+      "response": {
+        "text": "🚀 Welcome to No_Gas_Slaps™! \n\nThe ultimate P2E game where billionaires get SLAPPED into space! No gas fees, just pure meme-powered action.\n\n💡 How to play:\n• Use /slap to launch billionaires\n• Earn $SLAP tokens for epic launches\n• Upgrade your slapping power\n• Climb the leaderboard\n\nReady to send some billionaires to orbit? 🌌",
+        "keyboard": [
+          ["🎯 /slap", "💰 /balance"],
+          ["⚡ /upgrade", "🏆 /leaderboard"],
+          ["❓ /help", "📊 /stats"]
+        ]
+      }
+    },
+    "/slap": {
+      "description": "Launch a random billionaire",
+      "gameplay": {
+        "animation_type": "gif",
+        "duration": "3-5 seconds",
+        "mechanics": {
+          "power_multiplier": "random 0.5x to 3.0x",
+          "bonus_events": ["rocket_boost", "gravity_slingshot", "meme_storm"],
+          "rarity_weights": {
+            "common": 45,
+            "uncommon": 30,
+            "rare": 15,
+            "epic": 8,
+            "legendary": 2
+          }
+        }
+      },
+      "response_template": "🎯 *{{billionaire_name}}* got SLAPPED!\n\n{{gif_url}}\n\n{{narrative_outcome}}\n\n💰 Earned: **{{points}} $SLAP**\n🎲 Rarity: **{{rarity}}**\n📊 Total Score: **{{total_score}}**\n\n/slap again for more orbital action! 🚀"
+    },
+    "/upgrade": {
+      "description": "Show upgrade store",
+      "store_items": [
+        {
+          "id": "power_gloves",
+          "name": "💪 Power Gloves",
+          "cost": 1000,
+          "effect": "+25% slap power",
+          "description": "Hulk-level slapping power! Send billionaires to Mars with style.",
+          "max_level": 10
+        },
+        {
+          "id": "rocket_boots",
+          "name": "🚀 Rocket Boots",
+          "cost": 2500,
+          "effect": "+50% launch velocity",
+          "description": "Because walking is for peasants. Strap on these bad boys for extra orbital boost!",
+          "max_level": 8
+        },
+        {
+          "id": "meme_magnet",
+          "name": "🧲 Meme Magnet",
+          "cost": 1500,
+          "effect": "+30% rare event chance",
+          "description": "Attracts viral memes like Elon attracts SEC investigations!",
+          "max_level": 5
+        },
+        {
+          "id": "gravity_defier",
+          "name": "🌀 Gravity Defier",
+          "cost": 5000,
+          "effect": "Ignores gravity for 2 seconds",
+          "description": "Newton's laws? Never heard of them. Float like a SpaceX rocket!",
+          "max_level": 3
+        },
+        {
+          "id": "billionaire_bane",
+          "name": "💥 Billionaire Bane",
+          "cost": 10000,
+          "effect": "Guaranteed epic+ rarity",
+          "description": "The ultimate anti-billionaire weapon. Guaranteed to make them see stars (literally)!",
+          "max_level": 1
+        }
+      ],
+      "response_template": "⚡ *Upgrade Store*\n\nYour $SLAP: **{{balance}}**\n\n{{#each upgrade}}\n**{{name}}** - {{cost}} $SLAP\n{{effect}}\n{{description}}\n\n{{/each}}\n\nReply with upgrade ID to purchase!"
+    },
+    "/balance": {
+      "description": "Show user balance and stats",
+      "response_template": "💰 *Your Stats*\n\n**Balance:** {{balance}} $SLAP\n**Total Slaps:** {{total_slaps}}\n**Best Launch:** {{best_score}} points\n**Rank:** #{{rank}}\n\n📊 *Achievements*\n{{#each achievements}}\n🏅 {{name}} - {{progress}}/{{total}}\n{{/each}}"
+    },
+    "/leaderboard": {
+      "description": "Show global leaderboard",
+      "response_template": "🏆 *Global Leaderboard*\n\n{{#each top_players}}\n**#{{rank}}** {{username}} - {{score}} $SLAP\n{{/each}}\n\nYour rank: **#{{user_rank}}** ({{user_score}} $SLAP)\n\nCompete for weekly prizes! 🎁"
+    },
+    "/help": {
+      "description": "Show game instructions",
+      "response": "❓ *How to Play No_Gas_Slaps™*\n\n🎯 **/slap** - Launch billionaires into space\n⚡ **/upgrade** - Buy power-ups for bigger launches\n💰 **/balance** - Check your $SLAP tokens\n🏆 **/leaderboard** - See top players\n\n**Tips:**\n• Higher rarity = more points\n• Upgrade for better launches\n• Share your best slaps for bonuses\n• No gas fees ever!\n\nReady to slap some billionaires? 🚀"
+    },
+    "/stats": {
+      "description": "Show game statistics",
+      "response_template": "📊 *Game Stats*\n\n**Total Players:** {{total_players}}\n**Total Slaps:** {{total_slaps}}\n**$SLAP Circulated:** {{total_tokens}}\n**Billionaires Slapped:** {{billionaires_slapped}}\n\n**Today's Top:**\n👑 {{daily_winner}} - {{daily_score}} points\n\n**Most Slapped:**\n🎯 {{most_slapped_target}} - {{slap_count}} times"
+    }
+  },
+  "gameplay_mechanics": {
+    "launch_formula": "base_power * (1 + upgrades) * rarity_multiplier * random_bonus",
+    "rarity_multipliers": {
+      "common": 1.0,
+      "uncommon": 1.5,
+      "rare": 2.5,
+      "epic": 5.0,
+      "legendary": 10.0
+    },
+    "daily_rewards": {
+      "login_bonus": 100,
+      "streak_bonus": 50,
+      "max_streak": 7
+    },
+    "social_features": {
+      "share_bonus": 50,
+      "referral_bonus": 500,
+      "clan_system": false
+    }
+  }
+}
